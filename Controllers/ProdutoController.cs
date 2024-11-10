@@ -10,7 +10,7 @@ namespace ProdutoApi.Controllers
   public class ProdutoController : ControllerBase
   {
     [HttpPost]
-    public IActionResult CriarProduto(Produto produto)
+    public IActionResult CriarProduto(string nome, decimal preco, string categoria, bool disponivel)
     {
       var produtoBuilder = new ProdutoBuilder()
           .ComNome(nome)
