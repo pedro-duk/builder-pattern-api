@@ -28,6 +28,13 @@ Then, a Boilerplate for this project was generated using Chat-GPT. The prompt gi
 
 The project didn't compile right away, since the standard .NET Api is built in a slightly different way than what Chat-GPT generated. However, after reading some internet tutorials and doing some modifications to the Controllers, i managed to get it working.
 
+## How to run this project
+Make sure you're in the same directory as the root of the project and run the command:
+
+```
+dotnet run
+```
+
 ## References
 - [Refactoring Guru - Builder Pattern](https://refactoring.guru/design-patterns/builder);
 - [ChatGPT](https://chatgpt.com/);
